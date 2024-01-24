@@ -14,6 +14,6 @@ ipeline {
 	                 }}
 		stage('Deployment'){
 		   steps {
-		sh 'cp target/CPCB.war /home/abhilash/Documents/DevOps/tar/apache-tomcat-9.0.79/webapps'
+		sh 'cp target/CPCB1.war /home/abhilash/Documents/DevOps/tar/apache-tomcat-9.0.79/webapps'
 			}}	
 }}
